@@ -6,49 +6,45 @@
     "googleAnalyticsOptions": null,
     "logToConsole": true,
     "disclaimer": {
-      "text": "Disclaimer: This map must not be used for navigation or precise spatial analysis",
+      "text": "Disclaimer: Peta ini tidak boleh digunakan untuk navigasi atau analisis spasial yang presisi",
       "url": ""
     },
     "printDisclaimer": {
-      "text": "Put your print disclaimer here.",
+      "text": "Taruh disclaimer di sini.",
       "url": "#"
     },
     "globalDisclaimer": {
       "confirmationRequired": false,
-      "buttonTitle": "I agree",
+      "buttonTitle": "Saya setuju",
       "title": "Disclaimer",
-      "prodHostRegex": "gov\\.au$",
+      "prodHostRegex": "go\\.id$",
       "devHostRegex": "\\b(staging|preview|test|dev)\\.",
       "enableOnLocalhost": true
     },
     "developerAttribution": {
-      "text": "Your organisation",
-      "link": "http://www.example.com"
+      "text": "Badan Informasi Geospasial Indonesia (BIG)",
+      "link": "https://www.big.go.id"
     },
-    "appName": "Terria Map",
-    "brandBarElements": [
-      "",
-      "<a target=\"_blank\" href=\"https://terria.io\"><img src=\"images/terria_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
-      ""
-    ],
-    "supportEmail": "help@example.com",
+    "appName": "Piksel Map",
+    "brandBarElements": [],
+    "supportEmail": "piksel@big.go.id",
     "proj4ServiceBaseUrl": "proj4def/",
     "feedbackUrl": "feedback",
     "mobileDefaultViewerMode": "2d",
     "experimentalFeatures": true,
     "showWelcomeMessage": true,
     "welcomeMessageVideo": {
-      "videoTitle": "Getting started with the map",
+      "videoTitle": "Mulai menggunakan peta",
       "videoUrl": "https://www.youtube-nocookie.com/embed/NTtSM70rIvI",
       "placeholderImage": "https://img.youtube.com/vi/NTtSM70rIvI/maxresdefault.jpg"
     },
     "showInAppGuides": true,
     "languageConfiguration": {
-      "enabled": false,
+      "enabled": true,
       "debug": false,
       "languages": {
-        "en": "English",
-        "fr": "Français"
+        "id": "Indonesia",
+        "en": "English"
       },
       "fallbackLanguage": "en"
     },
@@ -161,12 +157,12 @@
       {
         "icon": "story",
         "itemName": "storymigration",
-        "markdownText": "## Share & Story Migration\n\n### Guide on updating share links, including stories\n\nIf you've received a warning telling you that a share link was based off an older version of TerriaJS, you'll want to do a few things to recreate them in the latest version of Terria!\n\n#### Creators\n\n1. Identify the share URL which causes a notification of share preservation effort when loading them into Terria. e.g. you may know where they are embedded, or come across them accidentally\n2. Open them in the newer (v8) based map application \n3. Check that everything is sharing as you expect, tweak the layers to fit if some are missing or not behaving correctly.\n4. Update the share link by clicking the Share/Print button and copy the new link\n5. If distribution of share link is known, update the url in your web page (if embedded), or send the new link to users \n\n#### Consumers\n1. Load the share URL\n2. If it doesn't quite look right, notify the provider so they can follow the above steps to recreate it in the latest version of Terria",
-        "title": "Share & Story migration"
+        "markdownText": "## Migrasi Share & Story\n\n### Panduan update link share, termasuk stories\n\nKalau kamu dapat peringatan bahwa link share dibuat dari versi TerriaJS yang lebih lama, kamu perlu buat ulang di versi Terria terbaru!\n\n#### Pembuat\n\n1. Cari URL share yang memunculkan notifikasi upaya preservasi share saat dimuat ke Terria. Misalnya kamu mungkin tahu di mana mereka di-embed, atau menemukan secara tidak sengaja\n2. Buka di aplikasi peta berbasis versi baru (v8)\n3. Cek bahwa semuanya share seperti yang kamu harapkan, sesuaikan layer kalau ada yang hilang atau tidak bekerja dengan benar\n4. Update link share dengan klik tombol Share/Print dan copy link baru\n5. Kalau distribusi link share diketahui, update url di halaman web kamu (kalau di-embed), atau kirim link baru ke user\n\n#### Konsumen\n1. Load URL share\n2. Kalau tidak terlihat benar, beritahu penyedia supaya mereka bisa ikuti langkah di atas untuk buat ulang di versi Terria terbaru",
+        "title": "Migrasi Share & Story"
       },
       {
         "itemName": "satelliteimagery",
-        "title": "Satellite Imagery",
+        "title": "Citra Satelit",
         "paneMode": "slider",
         "icon": "satellite"
       }
@@ -180,7 +176,7 @@
       {
         "term": "translate#helpContentTerm2.term",
         "aliases": "translate#helpContentTerm2.aliases",
-        "content": "translate#helpContentTerm1.content"
+        "content": "translate#helpContentTerm2.content"
       },
       {
         "term": "translate#helpContentTerm3.term",

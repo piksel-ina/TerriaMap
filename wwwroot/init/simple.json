@@ -80,7 +80,7 @@
   ],
   "viewerMode": "2d",
   "baseMaps": {
-    "defaultBaseMapId": "basemap-openstreetmap",
-    "previewBaseMapId": "basemap-natural-earth-II"
+    "defaultBaseMapId": "basemap-natural-earth-II",
+    "previewBaseMapId": "basemap-openstreetmap"
   }
 }
