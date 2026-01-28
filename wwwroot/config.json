@@ -26,12 +26,17 @@
       "link": "https://www.big.go.id"
     },
     "appName": "Piksel Map",
-    "brandBarElements": [],
+    "brandBarElements": [
+      "",
+      "<div style=\"display: flex; gap: 40px; align-items: center;\"><a target=\"_blank\" href=\"https://yourwebsite.com\"><img src=\"images/logo-big.png\" height=\"52\" title=\"Version: {{version}}\" /></a><a target=\"_blank\" href=\"https://yourwebsite.com\"><img src=\"images/piksel-logo.svg\" height=\"52\" /></a></div>",
+      ""
+    ],
+
     "supportEmail": "piksel@big.go.id",
     "proj4ServiceBaseUrl": "proj4def/",
     "feedbackUrl": "feedback",
     "mobileDefaultViewerMode": "2d",
-    "experimentalFeatures": true,
+    "experimentalFeatures": false,
     "showWelcomeMessage": true,
     "welcomeMessageVideo": {
       "videoTitle": "Mulai menggunakan peta",
