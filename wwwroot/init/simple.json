@@ -80,6 +80,31 @@
   ],
   "viewerMode": "2d",
   "baseMaps": {
+    "items": [
+      {
+        "item": {
+          "id": "basemap-openstreetmap"
+        },
+        "image": "images/basemaps/indo-osm.png"
+      },
+      {
+        "item": {
+          "id": "basemap-esri-world-imagery",
+          "name": "ESRI World Imagery",
+          "type": "url-template-imagery",
+          "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+          "attribution": "Tiles © Esri",
+          "opacity": 1.0
+        },
+        "image": "images/basemaps/indo-esri.png"
+      },
+      {
+        "item": {
+          "id": "basemap-natural-earth-II"
+        },
+        "image": "images/basemaps/indo-ne.png"
+      }
+    ],
     "defaultBaseMapId": "basemap-natural-earth-II",
     "previewBaseMapId": "basemap-openstreetmap"
   }
