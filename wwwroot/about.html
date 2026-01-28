@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tentang Piksel Map</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.7;
+      color: #333;
+      background: #f5f5f5;
+    }
+    
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    
+    .header {
+      background: rgb(55, 118, 178);
+      color: white;
+      padding: 40px 50px;
+      border-bottom: 4px solid rgb(45, 98, 148);
+    }
+    
+    .header h1 {
+      font-size: 2.2em;
+      margin-bottom: 8px;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+    }
+    
+    .header p {
+      font-size: 1.05em;
+      opacity: 0.95;
+      font-weight: 300;
+    }
+    
+    .content {
+      padding: 50px;
+    }
+    
+    .section {
+      margin-bottom: 40px;
+    }
+    
+    .section h2 {
+      color: rgb(55, 118, 178);
+      font-size: 1.6em;
+      margin-bottom: 18px;
+      font-weight: 600;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+    
+    .section h3 {
+      color: rgb(45, 98, 148);
+      font-size: 1.25em;
+      margin-top: 25px;
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+    
+    .section p {
+      margin-bottom: 16px;
+      font-size: 1em;
+      text-align: justify;
+      line-height: 1.8;
+    }
+    
+    .section ul {
+      margin-left: 30px;
+      margin-bottom: 16px;
+    }
+    
+    .section li {
+      margin-bottom: 10px;
+      font-size: 1em;
+      line-height: 1.7;
+    }
+    
+    .info-box {
+      background: #f8f9fa;
+      border-left: 4px solid rgb(55, 118, 178);
+      padding: 20px 25px;
+      margin: 25px 0;
+    }
+    
+    .info-box p {
+      margin-bottom: 0;
+    }
+    
+    .collaboration-box {
+      background: #e8f4f8;
+      border: 2px solid rgb(55, 118, 178);
+      padding: 25px;
+      margin: 25px 0;
+      border-radius: 6px;
+    }
+    
+    .collaboration-box h4 {
+      color: rgb(55, 118, 178);
+      margin-bottom: 12px;
+      font-size: 1.15em;
+    }
+    
+    .link-button {
+      display: inline-block;
+      background: rgb(55, 118, 178);
+      color: white;
+      padding: 12px 28px;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: 500;
+      margin-top: 10px;
+      transition: background 0.3s ease;
+    }
+    
+    .link-button:hover {
+      background: rgb(45, 98, 148);
+    }
+    
+    .footer {
+      background: #f8f9fa;
+      padding: 30px 50px;
+      text-align: center;
+      border-top: 1px solid #e0e0e0;
+      color: #666;
+      font-size: 0.95em;
+    }
+    
+    .footer p {
+      margin-bottom: 8px;
+    }
+    
+    a {
+      color: rgb(55, 118, 178);
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    strong {
+      font-weight: 600;
+    }
+    
+    .disclaimer {
+      background: #fff9e6;
+      border: 1px solid #ffd966;
+      padding: 20px 25px;
+      margin: 25px 0;
+      font-size: 0.95em;
+    }
+    
+    @media (max-width: 768px) {
+      .header {
+        padding: 30px 25px;
+      }
+      
+      .header h1 {
+        font-size: 1.8em;
+      }
+      
+      .content {
+        padding: 30px 25px;
+      }
+      
+      .footer {
+        padding: 25px 25px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Tentang Piksel Map</h1>
+      <p>Platform Peta Berbasis Web untuk Akses Data Geospasial Indonesia</p>
+    </div>
+    
+    <div class="content">
+      <div class="section">
+        <h2>Tentang Piksel Map</h2>
+        <p>
+          <strong>Piksel Map</strong> merupakan salah satu layanan dalam ekosistem 
+          <strong>Digital Earth Indonesia (Piksel)</strong> yang dikembangkan oleh 
+          <strong>Badan Informasi Geospasial (BIG)</strong> untuk menyediakan akses berbasis peta 
+          terhadap produk dan layanan data geospasial Indonesia. Platform ini dikembangkan 
+          menggunakan TerriaJS, perangkat lunak open source yang dikembangkan oleh Data61 CSIRO.
+        </p>
+        
+        <!-- <div class="collaboration-box">
+          <h4>Kolaborasi Internasional</h4>
+          <p>
+            Pengembangan Piksel Map dilakukan melalui kerja sama dengan 
+            <strong>Geoscience Australia</strong> dan <strong>Auspatious</strong>, 
+            yang memberikan dukungan teknis dan berbagi pengalaman dalam implementasi 
+            platform Digital Earth untuk meningkatkan kapasitas pengelolaan data geospasial Indonesia.
+          </p>
+        </div> -->
+        
+        <p>
+          BIG menggunakan data satelit dan informasi geospasial untuk mendeteksi perubahan fisik 
+          di wilayah Indonesia dengan tingkat detail yang belum pernah ada sebelumnya. Platform 
+          ini mengidentifikasi perubahan tutupan lahan, pertumbuhan perkotaan, kualitas lingkungan, 
+          dan berbagai fenomena geospasial lainnya. Informasi lebih lanjut tentang BIG dapat 
+          diakses di <a href="https://www.big.go.id" target="_blank">https://www.big.go.id</a>.
+        </p>
+        
+        <p>
+          Piksel Map bertujuan untuk menyediakan akses mudah terhadap produk data geospasial 
+          guna membantu pengguna membuat keputusan yang lebih tepat dan berbasis informasi.
+        </p>
+        
+        <p>
+          Untuk melihat data yang tersedia di Piksel Map, klik tombol <strong>Jelajahi data</strong> 
+          dan perluas kategori untuk menelusuri katalog data.
+        </p>
+      </div>
+      
+      
+      <div class="section">
+        <h2>Kontribusi Data ke Piksel Map</h2>
+        <p>
+          Apabila terdapat dataset spasial yang sedang dikerjakan atau diproduksi (seperti CSV dengan 
+          informasi geolokasi) dan dianggap akan bermanfaat, usulan dapat disampaikan melalui email 
+          <a href="mailto:piksel@big.go.id">piksel@big.go.id</a> untuk dipertimbangkan inklusinya 
+          dalam Katalog Data.
+        </p>
+      </div>
+      
+      <div class="section">
+        <h2>Perangkat Lunak Piksel Map</h2>
+        <p>
+          Piksel Map adalah perangkat lunak open source yang tersedia sebagai proyek Github di 
+          <a href="https://github.com/piksel-ina" target="_blank">https://github.com/piksel-ina</a>. 
+          Platform inti, <a href="https://terria.io" target="_blank">TerriaJS</a>, awalnya 
+          dikembangkan oleh Data61 untuk NationalMap. Penggunaan file kode sumber harus sesuai 
+          dengan Lisensi. Salinan Lisensi dapat diperoleh di 
+          <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">http://www.apache.org/licenses/LICENSE-2.0</a>.
+        </p>
+        
+        <p>
+          Pengembangan dan implementasi Piksel Map mendapat dukungan teknis dari 
+          <strong>Geoscience Australia</strong> dan <strong>Auspatious</strong> dalam kerangka 
+          kerja sama bilateral untuk pengembangan kapasitas Digital Earth di Indonesia.
+        </p>
+        
+        <p>
+          Kecuali diwajibkan oleh hukum yang berlaku atau disepakati secara tertulis, perangkat 
+          lunak yang didistribusikan di bawah Lisensi didistribusikan "SEBAGAIMANA ADANYA", 
+          TANPA JAMINAN ATAU KETENTUAN APA PUN, baik tersurat maupun tersirat. Lihat Lisensi 
+          untuk bahasa spesifik yang mengatur izin dan batasan di bawah Lisensi.
+        </p>
+        
+        <h3>Perangkat Lunak Open Source Tambahan yang Digunakan</h3>
+        <p>
+          Dalam mengembangkan Piksel Map, BIG telah menggunakan perangkat lunak open source 
+          dan berkontribusi kembali padanya. Piksel Map memanfaatkan pustaka open source 
+          berikut ini:
+        </p>
+        <ul>
+          <li><a href="https://terria.io" target="_blank">TerriaJS</a></li>
+          <li><a href="https://cesium.com" target="_blank">Cesium</a></li>
+          <li><a href="https://leafletjs.com" target="_blank">Leaflet</a></li>
+        </ul>
+        <p>
+          Daftar lengkap tersedia dengan kode sumber Piksel Map di repositori Github.
+        </p>
+      </div>
+      
+      <div class="section">
+        <h2>Kolaborasi dan Kemitraan</h2>
+        <p>
+          Piksel Map dikembangkan melalui kolaborasi antara Badan Informasi Geospasial dengan 
+          mitra internasional untuk memastikan implementasi best practice dalam pengelolaan 
+          dan penyediaan data geospasial.
+        </p>
+        
+        <h3>Geoscience Australia</h3>
+        <p>
+          <a href="https://www.ga.gov.au" target="_blank">Geoscience Australia</a> merupakan 
+          lembaga pemerintah Australia yang mengembangkan platform Digital Earth Australia (DEA). 
+          Kerja sama dengan Geoscience Australia mencakup transfer pengetahuan, dukungan teknis, 
+          dan berbagi pengalaman dalam implementasi platform Digital Earth untuk mendukung 
+          pengembangan Piksel di Indonesia.
+        </p>
+        
+        <h3>Auspatious</h3>
+        <p>
+          <a href="https://auspatious.com" target="_blank">Auspatious</a> adalah konsultan 
+          teknologi geospasial yang memberikan dukungan teknis dalam pengembangan dan 
+          implementasi Piksel Map, termasuk kustomisasi platform, integrasi data, dan 
+          peningkatan kapasitas tim teknis BIG.
+        </p>
+        
+        <!-- <div class="info-box">
+          <p>
+            Kolaborasi ini merupakan bagian dari komitmen Indonesia dan Australia dalam 
+            pengembangan kapasitas pengelolaan data geospasial untuk mendukung pembangunan 
+            berkelanjutan dan pengambilan keputusan berbasis bukti.
+          </p>
+        </div> -->
+      </div>
+      
+      <div class="section">
+        <h2>Kontribusi ke Komunitas Open Source</h2>
+        <p>
+          Kontribusi terhadap kode atau usulan fitur baru dapat dilakukan dengan mengirimkan 
+          issue langsung di repositori terbuka <a href="https://github.com/piksel-ina" target="_blank">https://github.com/piksel-ina</a>. 
+          Deskripsi terperinci tentang use case untuk fungsionalitas baru sangat diharapkan.
+        </p>
+      </div>
+      
+      <div class="section">
+        <h2>Atribusi Data</h2>
+        <p>
+          Konten yang disajikan di Piksel Map bersumber dari berbagai organisasi. Detail 
+          tentang setiap kustodian data dan detail kontak dapat ditemukan di katalog 
+          data, biasanya di bawah "Kustodian Data" atau "Deskripsi".
+        </p>
+        
+        <h3>Peta Dasar</h3>
+        <ul>
+          <li><strong>OpenStreetMap</strong> - Dari OpenStreetMap Contributors. Open Database License.</li>
+          <li><strong>Natural Earth II</strong> - Dari Natural Earth. Domain Publik.</li>
+          <li><strong>ESRI World Imagery</strong> - Dari ESRI. Tersedia untuk penggunaan publik.</li>
+        </ul>
+        
+        <h3>Terrain</h3>
+        <ul>
+          <li><strong>Cesium World Terrain</strong> - Dari Cesium Ion. Lisensi Komersial.</li>
+        </ul>
+        
+        <h3>Geocoder</h3>
+        <ul>
+          <li><strong>Gazetteer Indonesia</strong> - Untuk Nama Tempat Resmi.</li>
+        </ul>
+      </div>
+      
+      <div class="section">
+        <h2>Syarat dan Ketentuan</h2>
+        
+        <div class="disclaimer">
+          <strong>Penting:</strong> Informasi yang ditampilkan di Piksel Map hanya untuk 
+          tujuan informasi umum, dan tidak dimaksudkan untuk memberikan nasihat komersial, 
+          keuangan, atau hukum apa pun.
+        </div>
+        
+        <p>
+          Informasi apa pun sehubungan dengan Piksel Map mungkin tidak sesuai dengan kebutuhan 
+          individu tertentu. Keterampilan, perawatan, dan penilaian independen perlu 
+          diterapkan sehubungan dengan cara penggunaan informasi yang ditampilkan di Piksel Map.
+        </p>
+        
+        <p>
+          Sebagai syarat penggunaan Piksel Map, kepatuhan terhadap semua hukum, peraturan, 
+          dan hak pihak ketiga yang berlaku (termasuk, tanpa batasan, hukum mengenai impor 
+          atau ekspor data atau perangkat lunak, privasi, dan hukum lokal) harus dipenuhi. 
+          Piksel Map tidak boleh digunakan untuk mendorong atau mempromosikan aktivitas ilegal 
+          atau pelanggaran hak pihak ketiga. Beberapa bagian dari Piksel Map (seperti fungsi 
+          pemendekan URL) bergantung pada API pihak ketiga.
+        </p>
+        
+        <p>
+          Dalam hal penting apa pun, nasihat profesional yang relevan dengan keadaan spesifik 
+          perlu dicari.
+        </p>
+        
+        <p>
+          Informasi yang ditampilkan di Piksel Map dikonsolidasikan oleh Badan Informasi 
+          Geospasial.
+        </p>
+        
+        <p>
+          Badan Informasi Geospasial tidak membuat pernyataan atau jaminan mengenai 
+          keakuratan atau kelengkapan konten atau produk apa pun sehubungan dengan Piksel Map. 
+          BIG menolak semua tanggung jawab dan semua kewajiban (termasuk tanpa batasan, 
+          kewajiban dalam kelalaian, untuk kesalahan atau kelalaian) untuk semua biaya, 
+          kerugian, kerusakan, dan biaya yang mungkin timbul sebagai akibat dari 
+          informasi yang ditampilkan di Piksel Map dan penggunaannya.
+        </p>
+        
+        <div class="info-box">
+          <p>
+            <strong>Peringatan Keselamatan:</strong> Piksel Map tidak boleh digunakan untuk 
+            navigasi atau analisis spasial yang presisi atau untuk aktivitas apa pun di mana 
+            penggunaan atau kegagalan Piksel Map dapat menyebabkan kematian, cedera pribadi, 
+            atau kerusakan lingkungan (seperti operasi fasilitas nuklir, kontrol lalu lintas 
+            udara, atau sistem pendukung kehidupan).
+          </p>
+        </div>
+      </div>
+      
+      <div class="section">
+        <h2>Akses</h2>
+        <p>
+          Informasi apa pun yang disediakan oleh kustodian data yang ditampilkan di Piksel Map 
+          disediakan sebagaimana adanya dan dengan pemahaman bahwa kustodian data masing-masing 
+          tidak bertanggung jawab, atau menjamin ketepatan waktu, keakuratan, atau kelengkapan 
+          informasi tersebut. Apabila terdapat kebutuhan untuk mengandalkan informasi apa pun 
+          yang ditampilkan di Piksel Map, permohonan secara tertulis kepada kustodian data 
+          masing-masing untuk otorisasi lebih lanjut perlu dilakukan.
+        </p>
+        
+        <p>
+          Penggunaan Piksel Map menandakan penerimaan terhadap syarat dan ketentuan ini.
+        </p>
+        
+        <p>
+          Hak penggunaan dan pembatasan peta dasar dan setiap dataset yang diaktifkan perlu 
+          dipertimbangkan saat menggunakan output Piksel Map dalam siaran, cetak, 
+          atau distribusi lainnya.
+        </p>
+      </div>
+      
+      <div class="section">
+        <h2>Kontak</h2>
+        <p>
+          Untuk informasi lebih lanjut, pertanyaan, atau dukungan teknis, silakan hubungi:
+        </p>
+        <ul>
+          <li><strong>Website:</strong> <a href="https://www.big.go.id" target="_blank">www.big.go.id</a></li>
+          <li><strong>Email:</strong> <a href="mailto:piksel@big.go.id">piksel@big.go.id</a></li>
+          <li><strong>Platform:</strong> <a href="https://piksel.big.go.id" target="_blank">piksel.big.go.id</a></li>
+          <li><strong>Github:</strong> <a href="https://github.com/piksel-ina" target="_blank">github.com/piksel-ina</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <p><strong>Badan Informasi Geospasial (BIG)</strong></p>
+      <p>Jalan Raya Jakarta-Bogor Km. 46, Cibinong, Bogor 16911</p>
+      <p style="margin-top: 15px;">
+        © 2025 Badan Informasi Geospasial. Platform ini dibangun dengan TerriaJS.
+      </p>
+      <p style="margin-top: 5px; font-size: 0.9em;">
+        Dikembangkan melalui kerja sama dengan Geoscience Australia dan Auspatious.
+      </p>
+      <p style="margin-top: 10px; font-size: 0.9em;">
+        <a href="https://www.big.go.id/kebijakan-privasi" target="_blank">Kebijakan Privasi</a> | 
+        <a href="https://www.big.go.id/syarat-ketentuan" target="_blank">Syarat & Ketentuan</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
