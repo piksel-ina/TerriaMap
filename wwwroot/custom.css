@@ -1,0 +1,59 @@
+:root {
+  --theme-transparent-dark: rgba(255, 255, 255, 0.788) !important;
+}
+
+div[class*="BoxHelpfulHints"] {
+  color: #494949;
+  line-height: 1.6;
+}
+
+button[class*="SidePanel"][class*="StyledButton"] {
+  background-color: rgb(55 118 178);
+}
+
+div[class*="WelcomeMessage"]div[class*="Box"] {
+  color: #494949 !important;
+}
+
+/* .tjs-standard-user-interface__story-wrapper > div > div > div {
+  background: rgb(64 79 92);
+} */
+
+.tjs-standard-user-interface__story-wrapper button {
+  border-radius: 4px;
+}
+
+div[class*="BottomBar"] {
+  background: #f1f1f1d5;
+  color: rgb(32, 31, 31);
+  padding: 8px 0;
+  padding-left: 18px;
+  border-radius: 8px;
+}
+
+div[class*="BottomBar"] :is(a, span, label) {
+  color: rgb(32, 31, 31);
+}
+
+div[class*="DistanceLegend"] {
+  background: rgb(32, 31, 31);
+}
+/* 
+.tjs-_buttons__btn--map {
+  color: rgb(96 95 104) !important;
+  background-color: rgb(255 255 255 / 86%) !important;
+}
+
+div[class*="MapNavigationItem"] div {
+  background: rgb(236, 225, 225);
+  }
+
+div[class*="ZoomControl"] {
+  background: rgb(236, 225, 225);
+  border-color: rgb(156, 163, 175);
+}
+
+div[class*="MapIconButton"] > button {
+  background: rgb(236, 225, 225);
+  border-color: rgb(156, 163, 175);
+} */

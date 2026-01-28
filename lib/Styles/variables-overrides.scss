@@ -1,4 +1,4 @@
-@forward "~terriajs/lib/Sass/common/_default_variables.scss";
+// @forward "~terriajs/lib/Sass/common/_default_variables.scss";
 /**
 // To customise the look of your map, uncomment and change values here (remove line above after uncommenting) and in lib/Views/global.scss
 
@@ -26,3 +26,25 @@
     $dark-darker: hsl(0,30%,15%);
 );
 */
+
+$dark: rgb(52 64 79);
+$dark-with-overlay: rgb(52 64 79);
+$dark-lighter: rgb(48, 57, 67);
+
+$font-base: sans-serif;
+$color-primary: rgb(55 118 178);
+$color-secondary: #333333;
+$color-primary-light: lighten($color-primary, 10%);
+$color-primary-dark: darken($color-primary, 10%);
+$color-secondary-light: lighten($color-secondary, 10%);
+$color-background: #ffffff !default;
+$color-text: #000000 !default;
+
+@forward "~terriajs/lib/Sass/common/_default_variables.scss" with (
+  $color-primary: $color-primary,
+  $color-secondary: $color-secondary,
+  $font-base: $font-base,
+  $dark: $dark,
+  $dark-with-overlay: $dark-with-overlay,
+  $dark-lighter: $dark-lighter
+);

@@ -19,7 +19,7 @@
       "title": "Disclaimer",
       "prodHostRegex": "go\\.id$",
       "devHostRegex": "\\b(staging|preview|test|dev)\\.",
-      "enableOnLocalhost": true
+      "enableOnLocalhost": false
     },
     "developerAttribution": {
       "text": "Badan Informasi Geospasial Indonesia (BIG)",
