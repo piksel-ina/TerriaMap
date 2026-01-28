@@ -31,7 +31,6 @@
       "<div style=\"display: flex; gap: 40px; align-items: center;\"><a target=\"_blank\" href=\"https://yourwebsite.com\"><img src=\"images/logo-big.png\" height=\"52\" title=\"Version: {{version}}\" /></a><a target=\"_blank\" href=\"https://yourwebsite.com\"><img src=\"images/piksel-logo.svg\" height=\"52\" /></a></div>",
       ""
     ],
-
     "supportEmail": "piksel@big.go.id",
     "proj4ServiceBaseUrl": "proj4def/",
     "feedbackUrl": "feedback",
@@ -209,6 +208,7 @@
         "term": "translate#helpContentTerm8.term",
         "content": "translate#helpContentTerm8.content"
       }
-    ]
+    ],
+    "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIwNmVkNGM4My03M2MwLTQwODktYjY3Zi0xODBmYTEwYmI3ODYiLCJpZCI6Mzg0MzQ1LCJpYXQiOjE3Njk1OTQ4OTB9.2sd89-dENm2YOnAAw6qPIiSyF-M2oWrmEUHuqWidzJE"
   }
 }

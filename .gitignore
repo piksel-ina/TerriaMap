@@ -31,3 +31,5 @@ package-lock.json
 .nvmrc
 
 _helper/
+
+.env
