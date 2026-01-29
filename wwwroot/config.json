@@ -25,10 +25,10 @@
       "text": "Badan Informasi Geospasial Indonesia (BIG)",
       "link": "https://www.big.go.id"
     },
-    "appName": "Piksel Map",
+    "appName": "Map - Piksel BIG",
     "brandBarElements": [
       "",
-      "<div style=\"display: flex; gap: 40px; align-items: center;\"><a target=\"_blank\" href=\"https://yourwebsite.com\"><img src=\"images/logo-big.png\" height=\"52\" title=\"Version: {{version}}\" /></a><a target=\"_blank\" href=\"https://yourwebsite.com\"><img src=\"images/piksel-logo.svg\" height=\"52\" /></a></div>",
+      "<div style=\"display: flex; gap: 40px; align-items: center;\"><a target=\"_blank\" href=\"https://big.go.id\"><img src=\"images/logo-big.png\" height=\"52\" title=\"Version: {{version}}\" /></a><a target=\"_blank\" href=\"https://piksel.big.go.id\"><img src=\"images/piksel-logo.svg\" height=\"52\" /></a></div>",
       ""
     ],
     "supportEmail": "piksel@big.go.id",
@@ -209,6 +209,6 @@
         "content": "translate#helpContentTerm8.content"
       }
     ],
-    "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIwNmVkNGM4My03M2MwLTQwODktYjY3Zi0xODBmYTEwYmI3ODYiLCJpZCI6Mzg0MzQ1LCJpYXQiOjE3Njk1OTQ4OTB9.2sd89-dENm2YOnAAw6qPIiSyF-M2oWrmEUHuqWidzJE"
+    "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJlNjQwYjBhMS1iNmM4LTRjMDEtYTIzOS00N2QwNWFhOTdkYzIiLCJpZCI6Mzg0MzQ1LCJpYXQiOjE3Njk2NjIwNTF9.KHSejRvxVc2zByf-gAKZ7MyeEuAdffebm8tH8gm01Lk"
   }
 }

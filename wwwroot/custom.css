@@ -11,6 +11,21 @@ button[class*="SidePanel"][class*="StyledButton"] {
   background-color: rgb(55 118 178);
 }
 
+div[class*="SidePanel"]
+  > div[class*="Box"]:first-child
+  > div[class*="Box"]:first-child
+  span[class*="TextSpan"] {
+  color: #494949;
+}
+
+div[class*="SidePanel"]
+  > div[class*="Box"]:first-child
+  > div[class*="Box"]:first-child
+  svg[class*="Icon"] {
+  color: #494949;
+  fill: #494949;
+}
+
 div[class*="WelcomeMessage"]div[class*="Box"] {
   color: #494949 !important;
 }
