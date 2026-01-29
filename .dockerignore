@@ -1,0 +1,16 @@
+node_modules
+.git
+.github
+.husky
+*.log
+.env
+.DS_Store
+npm-debug.log
+yarn-error.log
+terriajs-server.log
+*.md
+doc
+architecture
+.dockerignore
+Dockerfile
+docker-compose.yml
