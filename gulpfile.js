@@ -6,30 +6,6 @@
 
 "use strict";
 
-require("dotenv").config();
-
-(function injectEnvToConfig() {
-  var fs = require("fs");
-  var path = require("path");
-  var configPath = path.join(__dirname, "wwwroot", "config.json");
-
-  if (fs.existsSync(configPath)) {
-    var config = JSON.parse(fs.readFileSync(configPath, "utf8"));
-
-    if (!config.parameters) config.parameters = {};
-
-    if (process.env.CESIUM_ION_ACCESS_TOKEN) {
-      config.parameters.cesiumIonAccessToken =
-        process.env.CESIUM_ION_ACCESS_TOKEN;
-    }
-    // if (process.env.BING_MAPS_KEY) {
-    //   config.parameters.bingMapsKey = process.env.BING_MAPS_KEY;
-    // }
-
-    fs.writeFileSync(configPath, JSON.stringify(config, null, 2));
-  }
-})();
-
 /*global require*/
 // If gulp tasks are run in a post-install task modules required here must be be a `dependency`
 //  in package.json, not just a `devDependency`. This is not currently needed.

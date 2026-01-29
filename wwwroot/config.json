@@ -13,14 +13,6 @@
       "text": "Taruh disclaimer di sini.",
       "url": "#"
     },
-    "globalDisclaimer": {
-      "confirmationRequired": false,
-      "buttonTitle": "Saya setuju",
-      "title": "Disclaimer",
-      "prodHostRegex": "go\\.id$",
-      "devHostRegex": "\\b(staging|preview|test|dev)\\.",
-      "enableOnLocalhost": false
-    },
     "developerAttribution": {
       "text": "Badan Informasi Geospasial Indonesia (BIG)",
       "link": "https://www.big.go.id"

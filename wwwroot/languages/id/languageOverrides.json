@@ -163,12 +163,14 @@
     "badgeBarLabel": "Scene"
   },
   "welcomeMessage": {
-    "dismissText": "Tutup pesan dan jangan tampilkan ini lagi",
-    "exploreDataBtnText": "Jelajahi data",
-    "helpBtnText": "Saya butuh sedikit bantuan",
-    "tourBtnText": "Ikuti turnya",
-    "title": "Mari kita mulai",
-    "searchBtnText": "Cari lokasi"
+    "title": "Mulai di sini",
+    "welcomeMessage": "Ingin menjelajahi dan menemukan data?<br/>Kamu bisa langsung mulai, atau lihat panduan bantuan berikut.",
+    "welcomeMessageOnMobile": "Ingin menjelajahi dan menemukan data?",
+    "tourBtnText": "Lihat tur singkat",
+    "helpBtnText": "Saya butuh bantuan",
+    "exploreDataBtnText": "Jelajahi peta",
+    "searchBtnText": "Cari lokasi",
+    "dismissText": "Tutup pesan dan jangan tampilkan lagi"
   },
   "featureInfo": {
     "clickMap": "Klik peta untuk mengetahui lebih banyak tentang sebuah lokasi",
@@ -359,9 +361,9 @@
   "legend": {
     "n": "U",
     "e": "T",
-    "zone": "ZONA",
-    "lon": "Buj",
-    "lat": "Lin"
+    "zone": "Zona",
+    "lon": "lon",
+    "lat": "lat"
   },
   "diffTool": {
     "datePicker": {
