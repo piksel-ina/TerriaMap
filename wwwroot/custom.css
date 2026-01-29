@@ -2,6 +2,48 @@
   --theme-transparent-dark: rgba(255, 255, 255, 0.788) !important;
 }
 
+div[class*="Branding"] {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: nowrap;
+}
+
+#brand-logo-big,
+#brand-logo-piksel {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+#brand-logo-big img,
+#brand-logo-piksel img {
+  display: block;
+  max-height: 60px;
+}
+
+@media (max-width: 764px) {
+  #brand-logo-big img {
+    max-height: 36px;
+  }
+
+  #brand-logo-piksel {
+    display: none;
+  }
+}
+
+.tjs-mobile-header__ui > div {
+  background-color: oklch(94.511% 0.01286 244.48);
+}
+
+.tjs-mobile-header__group-right {
+  background: transparent !important;
+}
+
+button[class*="HamburgerButton"] {
+  background: rgb(55 118 178) !important;
+}
+
 div[class*="BoxHelpfulHints"] {
   color: #494949;
   line-height: 1.6;

@@ -4,15 +4,15 @@
     "googleUrlShortenerKey": null,
     "googleAnalyticsKey": null,
     "googleAnalyticsOptions": null,
-    "logToConsole": true,
+    // "logToConsole": true,
     "disclaimer": {
       "text": "Disclaimer: Peta ini tidak boleh digunakan untuk navigasi atau analisis spasial yang presisi",
       "url": ""
     },
-    "printDisclaimer": {
-      "text": "Taruh disclaimer di sini.",
-      "url": "#"
-    },
+    // "printDisclaimer": {
+    //   "text": "Taruh disclaimer di sini.",
+    //   "url": "#"
+    // },
     "developerAttribution": {
       "text": "Badan Informasi Geospasial Indonesia (BIG)",
       "link": "https://www.big.go.id"
@@ -20,9 +20,11 @@
     "appName": "Map - Piksel BIG",
     "brandBarElements": [
       "",
-      "<div style=\"display: flex; gap: 40px; align-items: center;\"><a target=\"_blank\" href=\"https://big.go.id\"><img src=\"images/logo-big.png\" height=\"52\" title=\"Version: {{version}}\" /></a><a target=\"_blank\" href=\"https://piksel.big.go.id\"><img src=\"images/piksel-logo.svg\" height=\"52\" /></a></div>",
+      "<div id=\"brand-logo-big\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://big.go.id\"><img src=\"images/logo-big.png\" /></a></div>",
+      "<div id=\"brand-logo-piksel\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://piksel.big.go.id\"><img src=\"images/piksel-logo.svg\" /></a></div>",
       ""
     ],
+
     "supportEmail": "piksel@big.go.id",
     "proj4ServiceBaseUrl": "proj4def/",
     "feedbackUrl": "feedback",
@@ -42,7 +44,7 @@
         "id": "Indonesia",
         "en": "English"
       },
-      "fallbackLanguage": "en"
+      "fallbackLanguage": "id"
     },
     "searchBarConfig": {},
     "searchProviders": [
