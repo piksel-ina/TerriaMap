@@ -72,7 +72,11 @@
               "type": "wms",
               "url": "https://ows.staging.piksel.big.go.id/wms",
               "layers": "s2_l2a",
-              "opacity": 0.8
+              "opacity": 0.8,
+              "tileErrorHandlingOptions": {
+                "thresholdBeforeDisablingItem": 20,
+                "ignoreUnknownTileErrors": true
+              }
             }
           ]
         },
@@ -88,7 +92,12 @@
               "url": "https://ows.staging.piksel.big.go.id/wms",
               "layers": "geomad_s2_annual",
               "opacity": 0.8,
-              "description": "GeoMAD (Geometric Median Absolute Deviation) annual statistics over Indonesia. This product provides cloud-free composite imagery by calculating the geometric median of Sentinel-2 observations."
+              "description": "GeoMAD (Geometric Median Absolute Deviation) annual statistics over Indonesia. This product provides cloud-free composite imagery by calculating the geometric median of Sentinel-2 observations.",
+              "tileErrorHandlingOptions": {
+                "thresholdBeforeDisablingItem": 20,
+                "ignoreUnknownTileErrors": true
+              },
+              "dateFormat": "UTC:yyyy"
             }
           ]
         }
