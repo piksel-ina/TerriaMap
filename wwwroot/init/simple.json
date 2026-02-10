@@ -62,7 +62,7 @@
       "name": "Surface Reflectance",
       "members": [
         {
-          "id": "piksel-big-group",
+          "id": "s2_l2a",
           "type": "group",
           "name": "Sentinel 2 Surface Reflectance",
           "members": [
@@ -70,8 +70,25 @@
               "id": "s2-l2a",
               "name": "Sentinel-2 L2 SR",
               "type": "wms",
-              "url": "https://ows.staging.piksel.big.go.id/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+              "url": "https://ows.staging.piksel.big.go.id/wms",
+              "layers": "s2_l2a",
               "opacity": 0.8
+            }
+          ]
+        },
+        {
+          "id": "geomad",
+          "type": "group",
+          "name": "Sentinel-2 Annual GeoMAD",
+          "members": [
+            {
+              "id": "geomad-s2-annual",
+              "type": "wms",
+              "name": "Sentinel-2 Annual GeoMAD",
+              "url": "https://ows.staging.piksel.big.go.id/wms",
+              "layers": "geomad_s2_annual",
+              "opacity": 0.8,
+              "description": "GeoMAD (Geometric Median Absolute Deviation) annual statistics over Indonesia. This product provides cloud-free composite imagery by calculating the geometric median of Sentinel-2 observations."
             }
           ]
         }
