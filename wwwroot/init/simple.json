@@ -100,6 +100,27 @@
               "dateFormat": "UTC:yyyy"
             }
           ]
+        },
+        {
+          "id": "s2-geomad-annual-14band",
+          "type": "group",
+          "name": "Sentinel-2 Annual GeoMAD 14-band",
+          "members": [
+            {
+              "id": "s2-geomad-annual",
+              "type": "wms",
+              "name": "Sentinel-2 Annual GeoMAD 14-band",
+              "url": "https://ows.staging.piksel.big.go.id/wms",
+              "layers": "s2_geomad_annual",
+              "opacity": 0.8,
+              "description": "GeoMAD (Geometric Median Absolute Deviation) annual statistics over Indonesia. Full 14-band product including NIR, red edge, and SWIR bands from Sentinel-2.",
+              "tileErrorHandlingOptions": {
+                "thresholdBeforeDisablingItem": 20,
+                "ignoreUnknownTileErrors": true
+              },
+              "dateFormat": "UTC:yyyy"
+            }
+          ]
         }
       ]
     }
