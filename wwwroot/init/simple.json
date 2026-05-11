@@ -86,13 +86,126 @@
           "name": "Sentinel-2 Annual GeoMAD",
           "members": [
             {
-              "id": "s2-geomad-annual",
-              "type": "wmts",
-              "name": "Sentinel-2 Annual GeoMAD",
-              "url": "https://ows.staging.piksel.big.go.id/wmts",
-              "layer": "s2_geomad_annual",
+              "id": "s2-geomad-rgb",
+              "type": "wms",
+              "name": "GeoMAD - True Color",
+              "url": "https://ows.staging.piksel.big.go.id/wms",
+              "layers": "s2_geomad_annual",
+              "styles": "rgb",
               "opacity": 0.8,
-              "description": "GeoMAD (Geometric Median Absolute Deviation) annual statistics over Indonesia. Cloud-free composite imagery from Sentinel-2.",
+              "description": "Annual cloud-free composite (geomedian) in true color (Red, Green, Blue).",
+              "tileErrorHandlingOptions": {
+                "thresholdBeforeDisablingItem": 20,
+                "ignoreUnknownTileErrors": true
+              }
+            },
+            {
+              "id": "s2-geomad-false-color",
+              "type": "wms",
+              "name": "GeoMAD - False Color (NIR)",
+              "url": "https://ows.staging.piksel.big.go.id/wms",
+              "layers": "s2_geomad_annual",
+              "styles": "false_color_nir",
+              "opacity": 0.8,
+              "description": "Annual cloud-free composite in false color (NIR, Red, Green). Vegetation appears red.",
+              "tileErrorHandlingOptions": {
+                "thresholdBeforeDisablingItem": 20,
+                "ignoreUnknownTileErrors": true
+              }
+            },
+            {
+              "id": "s2-geomad-ndvi",
+              "type": "wms",
+              "name": "GeoMAD - NDVI",
+              "url": "https://ows.staging.piksel.big.go.id/wms",
+              "layers": "s2_geomad_annual",
+              "styles": "ndvi",
+              "opacity": 0.8,
+              "description": "Normalised Difference Vegetation Index from the annual GeoMAD composite. Higher values (green) indicate denser vegetation.",
+              "tileErrorHandlingOptions": {
+                "thresholdBeforeDisablingItem": 20,
+                "ignoreUnknownTileErrors": true
+              }
+            },
+            {
+              "id": "s2-geomad-ndwi",
+              "type": "wms",
+              "name": "GeoMAD - NDWI (Water)",
+              "url": "https://ows.staging.piksel.big.go.id/wms",
+              "layers": "s2_geomad_annual",
+              "styles": "ndwi",
+              "opacity": 0.8,
+              "description": "Normalised Difference Water Index from the annual GeoMAD composite. Higher values (blue) indicate water bodies.",
+              "tileErrorHandlingOptions": {
+                "thresholdBeforeDisablingItem": 20,
+                "ignoreUnknownTileErrors": true
+              }
+            },
+            {
+              "id": "s2-geomad-mndwi",
+              "type": "wms",
+              "name": "GeoMAD - MNDWI (Water, SWIR)",
+              "url": "https://ows.staging.piksel.big.go.id/wms",
+              "layers": "s2_geomad_annual",
+              "styles": "mndwi",
+              "opacity": 0.8,
+              "description": "Modified Normalised Difference Water Index. Better at detecting water in built-up areas than NDWI.",
+              "tileErrorHandlingOptions": {
+                "thresholdBeforeDisablingItem": 20,
+                "ignoreUnknownTileErrors": true
+              }
+            },
+            {
+              "id": "s2-geomad-ndbi",
+              "type": "wms",
+              "name": "GeoMAD - NDBI (Built-up)",
+              "url": "https://ows.staging.piksel.big.go.id/wms",
+              "layers": "s2_geomad_annual",
+              "styles": "ndbi",
+              "opacity": 0.8,
+              "description": "Normalised Difference Built-up Index from the annual GeoMAD composite. Higher values (pink) indicate urban/built-up areas.",
+              "tileErrorHandlingOptions": {
+                "thresholdBeforeDisablingItem": 20,
+                "ignoreUnknownTileErrors": true
+              }
+            },
+            {
+              "id": "s2-geomad-bsi",
+              "type": "wms",
+              "name": "GeoMAD - BSI (Bare Soil)",
+              "url": "https://ows.staging.piksel.big.go.id/wms",
+              "layers": "s2_geomad_annual",
+              "styles": "bsi",
+              "opacity": 0.8,
+              "description": "Bare Soil Index from the annual GeoMAD composite. Higher values (red) indicate exposed soil.",
+              "tileErrorHandlingOptions": {
+                "thresholdBeforeDisablingItem": 20,
+                "ignoreUnknownTileErrors": true
+              }
+            },
+            {
+              "id": "s2-geomad-emad",
+              "type": "wms",
+              "name": "GeoMAD - EMAD (Change Detection)",
+              "url": "https://ows.staging.piksel.big.go.id/wms",
+              "layers": "s2_geomad_annual",
+              "styles": "emad",
+              "opacity": 0.8,
+              "description": "Euclidean Median Absolute Deviation. Measures overall spectral change. Brighter pixels indicate greater change from the geomedian.",
+              "tileErrorHandlingOptions": {
+                "thresholdBeforeDisablingItem": 20,
+                "ignoreUnknownTileErrors": true
+              }
+            },
+            {
+              "id": "s2-geomad-count",
+              "type": "wms",
+              "name": "GeoMAD - Observation Count",
+              "url": "https://ows.staging.piksel.big.go.id/wms",
+              "layers": "s2_geomad_annual",
+              "styles": "count",
+              "opacity": 0.8,
+              "description": "Number of clear Sentinel-2 observations used in the annual composite. Brighter areas had more cloud-free acquisitions.",
               "tileErrorHandlingOptions": {
                 "thresholdBeforeDisablingItem": 20,
                 "ignoreUnknownTileErrors": true
