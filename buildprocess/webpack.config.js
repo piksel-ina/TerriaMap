@@ -131,12 +131,21 @@ module.exports = function ({ devMode, baseHref = "/" }) {
     "../lib/Styles/variables-overrides.scss"
   );
 
-  return configureWebpackForPlugins(
-    configureWebpackForTerriaJS({
-      terriaJSBasePath: path.dirname(require.resolve("terriajs/package.json")),
-      config,
-      devMode,
-      MiniCssExtractPlugin
-    })
-  );
+  const configured = configureWebpackForTerriaJS({
+    terriaJSBasePath: path.dirname(require.resolve("terriajs/package.json")),
+    config,
+    devMode,
+    MiniCssExtractPlugin
+  });
+
+  const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
+  const ForkTsCheckerNotifierWebpackPlugin = require("fork-ts-checker-notifier-webpack-plugin");
+  configured.plugins = configured.plugins.filter((plugin) => {
+    return (
+      !(plugin instanceof ForkTsCheckerWebpackPlugin) &&
+      !(plugin instanceof ForkTsCheckerNotifierWebpackPlugin)
+    );
+  });
+
+  return configureWebpackForPlugins(configured);
 };

@@ -18,12 +18,7 @@
       "link": "https://www.big.go.id"
     },
     "appName": "Map - Piksel BIG",
-    "brandBarElements": [
-      "",
-      "<div id=\"brand-logo-big\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://big.go.id\"><img src=\"images/logo-big.png\" /></a></div>",
-      "<div id=\"brand-logo-piksel\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://piksel.big.go.id\"><img src=\"images/piksel-logo.svg\" /></a></div>",
-      ""
-    ],
+    "brandBarElements": [],
 
     "supportEmail": "piksel@big.go.id",
     "proj4ServiceBaseUrl": "proj4def/",

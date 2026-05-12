@@ -1,39 +1,17 @@
 :root {
-  --theme-transparent-dark: rgba(255, 255, 255, 0.788) !important;
+  --theme-transparent-dark: rgba(20, 25, 35, 0.85) !important;
 }
 
 div[class*="Branding"] {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  flex-wrap: nowrap;
+  display: none !important;
 }
 
-#brand-logo-big,
-#brand-logo-piksel {
-  display: inline-flex;
-  align-items: center;
-  flex: 0 0 auto;
-}
-
-#brand-logo-big img,
-#brand-logo-piksel img {
-  display: block;
-  max-height: 60px;
-}
-
-@media (max-width: 764px) {
-  #brand-logo-big img {
-    max-height: 36px;
-  }
-
-  #brand-logo-piksel {
-    display: none;
-  }
+div[class*="SidePanelContainer"] {
+  padding-top: 24px;
 }
 
 .tjs-mobile-header__ui > div {
-  background-color: oklch(94.511% 0.01286 244.48);
+  background-color: #1b2028;
 }
 
 .tjs-mobile-header__group-right {
@@ -45,7 +23,7 @@ button[class*="HamburgerButton"] {
 }
 
 div[class*="BoxHelpfulHints"] {
-  color: #494949;
+  color: #cbd5e1;
   line-height: 1.6;
 }
 
@@ -57,19 +35,19 @@ div[class*="SidePanel"]
   > div[class*="Box"]:first-child
   > div[class*="Box"]:first-child
   span[class*="TextSpan"] {
-  color: #494949;
+  color: #cbd5e1;
 }
 
 div[class*="SidePanel"]
   > div[class*="Box"]:first-child
   > div[class*="Box"]:first-child
   svg[class*="Icon"] {
-  color: #494949;
-  fill: #494949;
+  color: #cbd5e1;
+  fill: #cbd5e1;
 }
 
 div[class*="WelcomeMessage"]div[class*="Box"] {
-  color: #494949 !important;
+  color: #e2e8f0 !important;
 }
 
 /* .tjs-standard-user-interface__story-wrapper > div > div > div {
@@ -81,21 +59,21 @@ div[class*="WelcomeMessage"]div[class*="Box"] {
 }
 
 div[class*="BottomBar"] {
-  background: #f1f1f1d5;
-  color: rgb(32, 31, 31);
+  background: rgba(20, 25, 35, 0.9);
+  color: #e2e8f0;
   padding: 8px 0;
   padding-left: 18px;
   border-radius: 8px;
 }
 
 div[class*="BottomBar"] :is(a, span, label) {
-  color: rgb(32, 31, 31);
+  color: #cbd5e1;
 }
 
 div[class*="DistanceLegend"] {
   background: rgb(32, 31, 31);
 }
-/* 
+/*
 .tjs-_buttons__btn--map {
   color: rgb(96 95 104) !important;
   background-color: rgb(255 255 255 / 86%) !important;

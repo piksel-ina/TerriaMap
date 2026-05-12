@@ -37,8 +37,8 @@ $color-secondary: #333333;
 $color-primary-light: lighten($color-primary, 10%);
 $color-primary-dark: darken($color-primary, 10%);
 $color-secondary-light: lighten($color-secondary, 10%);
-$color-background: #ffffff !default;
-$color-text: #000000 !default;
+$color-background: #1b2028 !default;
+$color-text: #e2e8f0 !default;
 
 @forward "~terriajs/lib/Sass/common/_default_variables.scss" with (
   $color-primary: $color-primary,
