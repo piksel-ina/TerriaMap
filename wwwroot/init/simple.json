@@ -102,7 +102,8 @@
                   "tileErrorHandlingOptions": {
                     "thresholdBeforeDisablingItem": 20,
                     "ignoreUnknownTileErrors": true
-                  }
+                  },
+                  "dateFormat": "UTC:yyyy"
                 },
                 {
                   "id": "s2-geomad-false-color",
@@ -116,7 +117,8 @@
                   "tileErrorHandlingOptions": {
                     "thresholdBeforeDisablingItem": 20,
                     "ignoreUnknownTileErrors": true
-                  }
+                  },
+                  "dateFormat": "UTC:yyyy"
                 },
                 {
                   "id": "s2-geomad-rededge",
@@ -130,7 +132,8 @@
                   "tileErrorHandlingOptions": {
                     "thresholdBeforeDisablingItem": 20,
                     "ignoreUnknownTileErrors": true
-                  }
+                  },
+                  "dateFormat": "UTC:yyyy"
                 }
               ]
             },
@@ -151,7 +154,8 @@
                   "tileErrorHandlingOptions": {
                     "thresholdBeforeDisablingItem": 20,
                     "ignoreUnknownTileErrors": true
-                  }
+                  },
+                  "dateFormat": "UTC:yyyy"
                 },
                 {
                   "id": "s2-geomad-ndvi-re",
@@ -165,7 +169,8 @@
                   "tileErrorHandlingOptions": {
                     "thresholdBeforeDisablingItem": 20,
                     "ignoreUnknownTileErrors": true
-                  }
+                  },
+                  "dateFormat": "UTC:yyyy"
                 },
                 {
                   "id": "s2-geomad-ndwi",
@@ -179,7 +184,8 @@
                   "tileErrorHandlingOptions": {
                     "thresholdBeforeDisablingItem": 20,
                     "ignoreUnknownTileErrors": true
-                  }
+                  },
+                  "dateFormat": "UTC:yyyy"
                 },
                 {
                   "id": "s2-geomad-mndwi",
@@ -193,7 +199,8 @@
                   "tileErrorHandlingOptions": {
                     "thresholdBeforeDisablingItem": 20,
                     "ignoreUnknownTileErrors": true
-                  }
+                  },
+                  "dateFormat": "UTC:yyyy"
                 },
                 {
                   "id": "s2-geomad-ndbi",
@@ -207,7 +214,8 @@
                   "tileErrorHandlingOptions": {
                     "thresholdBeforeDisablingItem": 20,
                     "ignoreUnknownTileErrors": true
-                  }
+                  },
+                  "dateFormat": "UTC:yyyy"
                 },
                 {
                   "id": "s2-geomad-ndmi",
@@ -221,7 +229,8 @@
                   "tileErrorHandlingOptions": {
                     "thresholdBeforeDisablingItem": 20,
                     "ignoreUnknownTileErrors": true
-                  }
+                  },
+                  "dateFormat": "UTC:yyyy"
                 },
                 {
                   "id": "s2-geomad-bsi",
@@ -235,7 +244,8 @@
                   "tileErrorHandlingOptions": {
                     "thresholdBeforeDisablingItem": 20,
                     "ignoreUnknownTileErrors": true
-                  }
+                  },
+                  "dateFormat": "UTC:yyyy"
                 }
               ]
             },
@@ -256,7 +266,8 @@
                   "tileErrorHandlingOptions": {
                     "thresholdBeforeDisablingItem": 20,
                     "ignoreUnknownTileErrors": true
-                  }
+                  },
+                  "dateFormat": "UTC:yyyy"
                 },
                 {
                   "id": "s2-geomad-smad",
@@ -270,7 +281,8 @@
                   "tileErrorHandlingOptions": {
                     "thresholdBeforeDisablingItem": 20,
                     "ignoreUnknownTileErrors": true
-                  }
+                  },
+                  "dateFormat": "UTC:yyyy"
                 },
                 {
                   "id": "s2-geomad-bcmad",
@@ -284,7 +296,8 @@
                   "tileErrorHandlingOptions": {
                     "thresholdBeforeDisablingItem": 20,
                     "ignoreUnknownTileErrors": true
-                  }
+                  },
+                  "dateFormat": "UTC:yyyy"
                 },
                 {
                   "id": "s2-geomad-count",
@@ -298,7 +311,8 @@
                   "tileErrorHandlingOptions": {
                     "thresholdBeforeDisablingItem": 20,
                     "ignoreUnknownTileErrors": true
-                  }
+                  },
+                  "dateFormat": "UTC:yyyy"
                 }
               ]
             }
